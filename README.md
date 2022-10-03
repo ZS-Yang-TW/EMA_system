@@ -4,7 +4,6 @@
 
 請至 Python 官方網站下載 [3.10.5的版本]((https://www.python.org/downloads/))。
 
----
 ## Python 套件
 1. **Manim** 
 
@@ -16,7 +15,6 @@
     `pip install jupyter`
 
     測試用的環境。
----
 ## 其他工具
 1. **FFmpeg** 及 **MikTeX**
 
