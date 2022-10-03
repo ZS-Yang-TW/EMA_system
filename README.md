@@ -74,10 +74,14 @@ SCENE = "EMA_output" # <- Set the Scene name
 # ——————————— 模板製作區塊 ——————————— # 
 class EMA_output(addition):
     def construct(self):
+        ...
 ```
 
 ### ⚠️使用警告⚠️
-EMA 系統目前尚未經過路徑整合，所以對**路徑的正確性非常敏感的（Path sensitive）**。
+1. EMA 系統目前尚未經過路徑整合，所以對**路徑的正確性非常敏感的（Path sensitive）**。
 
-因此，務必注意**終端機的執行位置**，要在EMA_system這個路徑下執行。
+    因此，務必注意**終端機的執行位置**，要在EMA_system這個路徑下執行。
+
+2. 因為 EMA 系統需使用 Azure 的語音服務，請在良好的網路環境下執行 EMA 系統。
+
 
